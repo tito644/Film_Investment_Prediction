@@ -1,0 +1,9 @@
+{
+    "model_name": "Gradient Boosting",
+    "accuracy": 0.754,
+    "auc_score": 0.826,
+    "best_genre": "Horror",
+    "best_season": "Holiday",
+    "top_feature": "vote_count (56.7%)",
+    "key_insight": "The audience is more important than the budget"
+}
