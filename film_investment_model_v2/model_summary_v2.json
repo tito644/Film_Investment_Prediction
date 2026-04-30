@@ -1,0 +1,60 @@
+{
+  "version": "2.0",
+  "model": "GradientBoostingClassifier",
+  "accuracy_v1": 0.9133,
+  "accuracy_v2": 0.9071,
+  "auc_v1": 0.9714,
+  "auc_v2": 0.9706,
+  "features_v1": [
+    "budget_M",
+    "popularity",
+    "vote_average",
+    "vote_count",
+    "runtime",
+    "genre_encoded",
+    "season_encoded"
+  ],
+  "features_v2": [
+    "budget_M",
+    "popularity",
+    "vote_average",
+    "vote_count",
+    "runtime",
+    "genre_encoded",
+    "season_encoded",
+    "trailer_engagement_score",
+    "social_buzz_index",
+    "festival_score",
+    "community_sentiment_score",
+    "creator_track_record",
+    "early_momentum"
+  ],
+  "new_signals": [
+    "trailer_engagement_score",
+    "social_buzz_index",
+    "festival_score",
+    "community_sentiment_score",
+    "creator_track_record",
+    "early_momentum"
+  ],
+  "feature_importance": {
+    "vote_count": 0.5038190885621274,
+    "popularity": 0.3709447999689601,
+    "social_buzz_index": 0.030766920071600083,
+    "early_momentum": 0.016890942872466567,
+    "genre_encoded": 0.014328197183313402,
+    "community_sentiment_score": 0.013475141042510866,
+    "vote_average": 0.0097597340295654,
+    "budget_M": 0.009240597965221703,
+    "runtime": 0.007948603160491714,
+    "season_encoded": 0.007398139589450157,
+    "trailer_engagement_score": 0.006832660631940294,
+    "creator_track_record": 0.004723661627958252,
+    "festival_score": 0.0038715132943941606
+  },
+  "pre_release_total_importance": 0.0766,
+  "n_estimators": 150,
+  "training_date": "2025-03-31",
+  "dataset_size": 3229,
+  "peter_feedback": "Sprint 6 \u2014 Pre-release signals + Portfolio layer"
+}
