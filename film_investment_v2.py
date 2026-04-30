@@ -4,7 +4,7 @@ FILM INVESTMENT INTELLIGENCE — VERSION 2
 Pre-Release Signals + Enhanced ML Model + Portfolio Layer
 ==========================================================
 Sprint 6 Implementation — Peter's Feedback
-Author: Tarek ElNaggar | Lunim | 2025
+Author: Tarek Elnaggar | Lunim | 2026
 """
 
 import pandas as pd
